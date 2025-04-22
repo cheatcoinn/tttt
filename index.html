@@ -4,68 +4,100 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cheat Coin</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #0d0d0d;
-      color: #fff;
-      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      background-image: url('https://i.postimg.cc/SKPS2bmt/logo.png');
+      background-size: 80px;
+      background-repeat: repeat;
+      font-family: 'Inter', sans-serif;
+      color: #f0f0f0;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      height: 100vh;
+      align-items: center;
+      padding: 40px 20px;
       text-align: center;
     }
-    .container {
-      max-width: 800px;
-      padding: 20px;
-    }
-    h1 {
-      font-size: 3em;
-      color: #ff3c3c;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2em;
-      line-height: 1.6;
-      color: #ccc;
-    }
-    .token-info {
-      margin-top: 30px;
-      font-size: 1em;
-      background: #1a1a1a;
-      padding: 15px;
-      border-radius: 10px;
-      border: 1px solid #333;
-    }
+
     .logo {
-      max-width: 120px;
-      margin-bottom: 20px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 25px;
+      box-shadow: 0 0 15px #ff3c3c80;
+      border: 2px solid #ff3c3c;
     }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      color: #ff3c3c;
+      margin: 0 0 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      max-width: 600px;
+      margin-bottom: 35px;
+    }
+
+    .info-box {
+      background: #111;
+      border: 1px solid #333;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .info-box p {
+      margin: 8px 0;
+      font-size: 0.95rem;
+    }
+
     a {
       color: #ff3c3c;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="overlay">
     <img class="logo" src="https://i.postimg.cc/SKPS2bmt/logo.png" alt="Cheat Coin Logo"/>
     <h1>CHEAT COIN</h1>
     <p>
-      Cheat Coin isn't just a name — it's a movement.<br>
-      Behind the chaos is focus, hustle, and a vision.<br>
-      We're building something wild, and you're early.<br>
-      This isn't financial advice. It's a heads-up.<br>
-      Trust the madness. Join the wave.
+      Cheat Coin isn’t just a name — it's a movement.<br>
+      Built on energy, strategy, and a team that never sleeps.<br>
+      We’re here to flip the game, and this is just the beginning.<br><br>
+      Massive plans are cooking. Tech upgrades. Partnerships. Listings.<br>
+      This is your early chance before the rocket lifts off.<br><br>
+      Cheat Coin is getting attention. And soon? The price won’t look back.
     </p>
-    <div class="token-info">
+    <div class="info-box">
       <p><strong>Symbol:</strong> CC</p>
       <p><strong>Decimals:</strong> 18</p>
       <p><strong>Contract:</strong> <a href="https://etherscan.io/token/0xbabb7c31711df3504D1a940a23E6730ff42F5D53" target="_blank">0xbabb7c3...5D53</a></p>
